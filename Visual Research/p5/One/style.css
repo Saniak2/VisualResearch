@@ -1,0 +1,57 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.overlay{
+  position: absolute;
+  top:100;
+  padding: 3em;
+}
+
+.titleOne{
+  color:red;
+  font-size: 50px;
+  text-align: center;
+  font-family: Brush Script MT, Lucida Handwriting;
+}
+
+.titleTwo{
+  color:green;
+  font-size: 50px;
+  text-align: center;
+  font-family: Brush Script MT, Lucida Handwriting;
+}
+
+.titleThree{
+  color:slateblue;
+  font-size: 50px;
+  text-align: center;
+  font-family: Brush Script MT, Lucida Handwriting;
+}
+
+
+h3 {
+  color:violet;
+  font-size: 50px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+h2 {
+  color:darkorchid;
+  font-size: 25px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+ 
+ 
+ a, a :visited {
+  color: blue;
+ font-size: 20px;}
+
+ 
