@@ -14,5 +14,7 @@ function setup() {
 }
 
 function moveImage() {
-  image(img1, mouseX, mouseY);
+  while(1 == 1) {
+    image(img1, mouseX, mouseY);
+  }
 }
