@@ -11,6 +11,7 @@ function setup() {
   img1.resize(windowWidth/4,windowHeight/4);
   img2.resize(windowWidth/4,windowHeight/4);
   image(img2, windowWidth/10  + 100, windowHeight/10 + 200);
+  moveImage();
 }
 
 function moveImage() {
