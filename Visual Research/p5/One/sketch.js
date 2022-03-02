@@ -9,7 +9,10 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   background(0);
   img1.resize(windowWidth/4,windowHeight/4);
-  image(img1, windowWidth/10, windowHeight/10);
   img2.resize(windowWidth/4,windowHeight/4);
   image(img2, windowWidth/10  + 100, windowHeight/10 + 200);
+}
+
+function moveImage() {
+  image(img1, mouseX, mouseY);
 }
